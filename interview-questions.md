@@ -8,9 +8,17 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 INSTRUCTOR EXAMPLE: What is a conditional statement?
 
-Your answer:
+Your answer: I have worked with conditionals and know that it requires an evaluation of some sorts and uses Javascripts keyword if.
 
-Researched answer:
+Researched answer: A conditional statement is where you can perform an evaluation and based on that evaluation, perform an action.  This can also be called if/else statements or decision trees.
+
+if(this evaluation is true) {
+  do this action
+} else if(this evaluation is true) {
+  do this action
+} else {
+  do this...
+}
 
 1. What is git? What is the difference between git and Github?
 
