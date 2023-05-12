@@ -7,6 +7,14 @@
 // --------------------INSTRUCTOR EXAMPLE: Create a function that takes in two strings and determines which of the two strings has more characters. Use the two sets of test variables provided.
 
 // Pseudo code:
+// 1. Create a function called largerFruit - 2 parameters (string1, string2)
+// 2. Use a conditional to check which string is longer
+    // a. Use .length to check the string lengths
+    // b. Compare using comparison operator
+    // c. If string1 is greater, we will return that string
+    // d. Otherwise we will return string2
+// 3. Invoke function and check with provided variable sets
+
 
 // Set one:
 const fruit1 = "apple"
@@ -17,6 +25,20 @@ const fruit2 = "banana"
 const fruit3 = "cherry"
 const fruit4 = "kiwi"
 // Expected outcome: "cherry"
+
+const largerFruit = (string1, string2) => {
+  if(string.length > string2.length) {
+    return string1
+  } else {
+    return string2
+  }
+}
+
+console.log(largerFruit(fruit1, fruit2)) // banana
+console.log(largerFruit(fruit3, fruit4)) // cherry
+
+// ReferenceError: string is not defined - I have been running into this error for the last half hour, have tried looking through my code and adjusted ....
+
 
 // --------------------1) Create a function that takes in a number and determines if the given number is below boiling point, at boiling point, or above boiling point. Boiling point is 212 degrees Fahrenheit. Use the test variables provided below.
 
